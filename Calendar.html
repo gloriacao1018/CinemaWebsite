@@ -12,10 +12,10 @@
   </header>
   <div class="calendar-wrapper">
     <div class="calendar-controls">
-      <select id="month-select">
-        <option value="0">By Month</option>
-        <option value="11">November</option>
-        <option value="12">December</option>
+      <select id="time-select">
+        <option value="day">Today</option>
+        <option value="week">By Week</option>
+        <option value="month" selected>By Month</option>
       </select>
       <div class="nav-buttons">
         <button id="prev-month">&lt;</button>
@@ -25,14 +25,6 @@
       <button class="filter-btn">Filters</button>
     </div>
     <div class="calendar-grid">
-      <div class="day">Sun</div>
-      <div class="day">Mon</div>
-      <div class="day">Tue</div>
-      <div class="day">Wed</div>
-      <div class="day">Thu</div>
-      <div class="day">Fri</div>
-      <div class="day">Sat</div>
-      <div id="dates"></div>
     </div>
   </div>
   <script src="script.js"></script>

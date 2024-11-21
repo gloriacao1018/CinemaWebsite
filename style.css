@@ -67,8 +67,8 @@ body {
   
   .event-card {
     margin-top: 5px;
-    font-size: 12px; /* Optional styling for events */
-    color: #333; /* Optional styling */
+    font-size: 12px;
+    color: #333; 
   }  
   
   .date .event-card {
